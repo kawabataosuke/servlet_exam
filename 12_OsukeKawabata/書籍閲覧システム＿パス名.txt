@@ -1,0 +1,9 @@
+パス名:/login サーブレット：Login.java メソッド：POST 利用箇所:index.jspのformタグaction属性
+パス名:/logout Logout.java メソッド：GET 利用箇所:header.jspのaタグhref属性
+パス名:/bookList BookList.java メソッド：GET 利用箇所:login.javaのresponse.sendRedirectメソッド
+パス名:/bookNameSearch BookNameSearch.java メソッド：POST 利用箇所:list.jspのformタグaction属性
+パス名:/bookGenreSearch BookGenreSear.java メソッド：POST 利用箇所:list.jspのformタグaction属性
+
+
+
+   
