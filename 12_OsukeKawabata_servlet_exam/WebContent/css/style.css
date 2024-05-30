@@ -1,0 +1,30 @@
+p.error {
+	color: red;
+}
+header {
+	height:100px;
+	background-color: #CCFFFF;
+	display:flex;
+	justify-content:space-between;
+}
+footer {
+	height:50px;
+	background-color: #CCFFFF;
+	text-align: center;
+}
+#main {
+	height:300px;
+	text-align:center;
+}
+
+.form{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+table,td,th {
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin:auto;
+	margin-top:30px;
+}
