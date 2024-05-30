@@ -20,7 +20,7 @@ import jp.co.sss.book.dao.BookListDAO;
 public class BookGenreSearch extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		//乳慮された文字列を取得
+		//入力された文字列を取得
 		String genreId = request.getParameter("genre");
 		//DAOを生成
 		BookListDAO bookListDao = new BookListDAO();
